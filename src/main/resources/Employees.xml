@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<employees>
+    <companyname>ABC Inc.</companyname>
+    <employee>
+        <id>101</id>
+        <name>Ram</name>
+        <designation>Manager</designation>
+        <limit year="2020">
+            <live>
+                <ratingBasis>A</ratingBasis>
+            </live>
+            <propose>
+                <ratingBasis>A+</ratingBasis>
+            </propose>
+        </limit>
+        <limit year="2020" mid="true">
+            <live>
+                <ratingBasis>A</ratingBasis>
+            </live>
+            <propose>
+                <ratingBasis>A</ratingBasis>
+            </propose>
+        </limit>
+    </employee>
+
+    <employee>
+        <id>102</id>
+        <name>Prabhu</name>
+        <designation>Executive</designation>
+        <limit year="2021">
+            <live>
+                <ratingBasis>A-</ratingBasis>
+            </live>
+            <propose>
+                <ratingBasis>A--</ratingBasis>
+            </propose>
+        </limit>
+    </employee>
+
+    <employee>
+        <id>103</id>
+        <name>John</name>
+        <designation>Executive</designation>
+    </employee>
+</employees>
